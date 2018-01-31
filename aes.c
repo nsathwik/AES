@@ -528,11 +528,11 @@ int main(int argc, char *argv[]) {
 	
 	uint8_t *w; // expanded key
 
-	switch (sizeof(key)) {
+	/*switch (sizeof(key)) {
 		case 16: Nk = 4; Nr = 10; break;
 		case 24: Nk = 6; Nr = 12; break;
 		case 32: Nk = 8; Nr = 14; break;
-	}
+	}*/
 	
 	w = malloc(Nb*(Nr+1)*4);
 
